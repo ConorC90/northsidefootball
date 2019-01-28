@@ -1,0 +1,78 @@
+<html>
+<head>
+        <link  rel="stylesheet" type="text/css" href="Style/CSS.css">
+<title>Feedback Sent</title>
+    
+              
+</head>
+    
+    
+<body>
+
+  <div class="formTextTwo">  
+<h4>Thank you very much for filling in the NYSL membership form</h4><h4>The following information has been sent as your
+  feedback:</h4><a href="index.html"><h4>Home Page</h4></a>
+      </div>
+
+<table class="formTable" border="1" align=center width="226">
+  <tr>
+    <th align="center">Form Field</th>
+    <th align="center">Field Value</th>
+  </tr>
+
+   <div class="spinDiv"><div class="Logo2Div"> 
+    <div class="Logo2"></div>
+    </div>
+    </div>
+    
+    
+    
+    
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+<noscript>
+<tr><td>
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+</body>
+</html>
+

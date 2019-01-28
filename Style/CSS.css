@@ -1,0 +1,643 @@
+
+/*Hedder css*/
+.divHeader{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+}
+
+header{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        background-color:rgb(3,57,73);
+        border-style: solid;
+        border-color:  rgb(163,255,21);
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        border-radius: 20px;
+        border-radius: 20px;
+}
+
+
+.headerNav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: auto;
+            flex-wrap: wrap
+}
+
+.HeaderText{
+            color: rgb(163,255,21);
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            transition: color, 5s;
+            border-radius: 20px;
+}
+
+.HeaderText:hover{
+            color:rgb(3,57,73);
+            background-color: rgb(163,255,21);
+        
+}
+
+.navBar{
+        height: 50px;
+        width: 100%;
+        display: flex;
+}
+
+.navDiv{
+        display: flex;
+            justify-content: center;
+        width: 100%;
+}
+
+
+nav{
+    height: 60px;
+    width: 550px;
+    text-align:center;
+    font-size: 20px;
+    font-style:oblique;
+    margin:2px;
+    border-style:groove;
+    border-color:rgb(163,255,21);
+    padding:2px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    align-content:center;
+    color: rgb(163,255,21);
+}
+
+.links:hover{
+        transition: 0.8s;
+        border-top: 4px solid rgb(163,255,21);
+        font-weight: 800;  
+}
+
+.links{
+        color: rgb(163,255,21);
+        padding: 10px;
+        transition: 1.5s
+}
+
+.links:hover{
+            transform: scale(1.2);
+}
+.activeTab{
+        color: darkgoldenrod;
+}
+
+.Logo{
+        background-image: url(../Pics/nysl_logo.png);
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+        transition: 1.5s;
+}
+
+.Logo:hover{
+            transform: rotate(360deg);
+}
+
+
+/*end of header css*/
+
+/*Standard text and formatting for webpage*/
+.headLine{
+        text-align: center;
+        font-size: 25px;
+}
+body{
+    height: 100%;
+    min-height: 100%;
+}
+
+
+.boldText{
+            font-weight: 800;
+            font-size: 15px;
+}
+
+.boldTextSmaller{
+                font-weight: 800;
+                font-size: 14px;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+h4{
+            text-decoration: underline;
+            text-align: center;
+}
+
+h5{
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            
+            
+}
+h6{
+            font-size: 12px;
+}
+
+.Message{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-right: 20%;
+            padding-left: 20%;
+}
+
+
+.messageFlex{
+            display:flex;
+            flex-direction: column;
+            padding: 50px;
+}
+
+.rulesBody{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+            align-items: center;
+}
+
+
+/*Images CSS*/
+
+        /*Our_Team page*/
+
+.coachPics{
+        display: flex;
+        justify-content: space-around;
+    
+}
+.BigDiv{
+        display: flex;
+        flex-direction: column;
+    
+}
+
+.Pic1Coach{
+            display: flex;
+    
+}
+.coachPic1{
+        background-image: url(../Pics/coachPic.jpg);
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+        border-radius: 20px;
+        display:flex;
+        flex-direction: column;
+    
+}
+
+.coachPic2{
+        background-image: url(../Pics/coachPic2.jpg);
+        height: 200px;
+        width:200px;
+        background-size: cover;
+        border-radius: 20px;
+
+}
+
+.teamPic{
+        background-image:url(../Pics/newPic.jpg);
+        height: 400px;
+        width: 600px;
+        background-size: cover;
+        align-content: center;
+        margin: auto;
+        padding: 10px;
+        border-radius: 50%;
+}
+        /*Home_page*/
+.divHomePic{
+        display:flex;
+        justify-content: center;
+        height: 500px;
+        padding: 5px;
+        ;
+    
+        
+}
+.homePic{
+        position: absolute;
+        background-image: url(../Pics/goalNight.jpg);
+        height: 500px;
+        width: 750px;
+        background-size: cover;
+        padding:10px;
+        border-radius: 50px;
+        }
+.homePic2{
+        position: absolute;
+        background-image: url(../Pics/footballNight.jpg);
+        height: 500px;
+        width: 750px;
+        background-size: cover;
+        padding:10px;
+        border-radius: 50px;
+        animation: fade 30s linear both;
+        animation-iteration-count: infinite;
+}
+@keyframes fade{
+    0%,100%{opacity: 0}
+    50%{opacity: 1}
+    
+}
+
+
+/*CSS for Join_us page*/
+
+.divForm{
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+
+form{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #555;
+        outline: none;
+        font-family: monospace;
+}
+
+/*CSS for table in Game_information page*/
+
+td{
+    text-align: center;
+    height: 30px;
+    border-bottom: 1px solid black
+}
+
+tr{
+    text-align: center;
+    height:30px;
+    width:100%;
+}
+
+tbody:hover{
+        background-color:cornsilk;
+}
+
+th{
+    text-align: center;
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+
+.divTable{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 20%;
+            padding-right: 20%;
+}
+.divSepTable{
+            display: flex;
+            justify-content: center;
+            border: 10px solid black;
+            width: 600px;
+            padding: 10px;
+            align-content: center;
+}
+
+.divOctTable{
+            display: flex;
+            justify-content: center;
+            border: 10px solid black;
+            width: 600px;
+            padding:10px;
+            align-items: center;
+}
+
+.gameLocations{
+                display: flex;
+                justify-content: center;
+                border: 10px solid black;
+                width: 600px;
+                padding: 10px;
+                align-content: center;
+}
+
+
+.maps{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 10px;
+}
+
+.indivMap{
+            height: 400px;
+            width: 400px;
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+}
+/*CSS for Join_Us page*/
+
+.inLineText{
+            font-weight: 700
+}
+
+form{
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+        justify-content: space-around;
+        border: 10px;
+        border-style:ridge;
+}
+
+.divName{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 10px;
+}
+
+.textOnLine{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-grow: 1;
+            padding-left: 10px;
+            padding-right: 10px;
+}
+
+.divAddress{
+            display: flex;
+            justify-content: space-around
+}
+
+.divBirth{
+            display: flex;
+            justify-content: space-around;
+}
+
+.gender{
+            display: flex;
+            padding:0px;
+            margin: 0px;
+}
+
+.divGrade{
+            display: flex;
+            padding: 10px;
+}
+.divPandG{
+            display: flex;
+            width: 500px;
+}
+
+.divCity{
+            display: flex;
+            justify-content:space-around;
+            margin: 10px
+}
+
+.divAddress{
+            display: flex;
+            width: 60%;
+}
+
+.divContact{
+            display: flex;
+            justify-content: space-around
+}
+
+.divSchool{
+            display: flex;
+            justify-content:space-around;
+            margin: 5px;
+}
+
+.divPostion{
+            display:flex;
+            justify-content:space-around;
+            padding: 10px;
+}
+
+.positionOne{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+}
+
+.positionTwo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+}
+
+.divPostionChild{
+            display: flex;
+            flex-direction: row;
+}
+
+.divUniforms{
+            display: flex;
+            justify-content: space-around;
+}
+
+.divUniformsChild{
+            display: flex;
+            flex-direction: column;     
+}
+.divUniformsGChild{
+            display: flex;
+}
+
+.divSign{
+            display: flex;
+            justify-content: space-around
+}
+            
+.emailPhone{
+            display:flex;
+            justify-content: space-around;
+            font-size: 20px;
+}
+
+.noBorder{
+            border: none;
+            border-bottom: 2px;
+            border-bottom-style: solid;
+            width: 100%
+}
+
+.formDiv{
+        display: flex;
+        width: 100%;
+    
+}
+
+/*icon buttons for contact page*/
+.NavContact{
+            display: flex;
+            align-content: center;
+            justify-content:center;
+            width: auto;
+            border-radius: 20px;
+}
+
+.button{
+            padding: 10px;
+            font-size: 30px;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            border-radius:50%;
+            box-shadow: 1px 2px;
+}
+
+
+.allGames{
+            font-size: 20px;
+            text-align: center;
+}
+
+.contactContent{
+            display: flex;
+            align-items: baseline;
+            justify-content: space-around;
+            padding-left: 20%;
+            padding-right: 20%;
+            
+}
+
+
+/*CSS for the "show_data" page*/
+.formTextTwo{
+            display:flex;
+            flex-direction: column;
+            animation-name: scale;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-timing-function:ease-in;
+}
+@keyframes scale{
+    from{transform:scale(.1); 
+    }
+    to{transform: scale(1);
+        
+    }
+}
+.spinDiv{display: flex;
+        justify-content: flex-start;
+        animation:move 2s;
+        animation-duration: 4.5s;
+        animation-delay: .5s;
+        animation-fill-mode: forwards;
+    
+}
+.Logo2{
+        display:flex;
+        justify-content: center;
+        background-image: url(../Pics/nysl_logo.png);
+        height: 200px;
+        width: 200px;
+        background-size: cover;
+        animation-name: spin;
+        animation-delay: .5s;
+        animation-duration: 4.5s;
+                
+}
+
+/*
+
+Trying to get the logo to move and rotate at the same time, but it will only accept one animation at a time
+*/
+
+@keyframes move{
+            from{transform: translateX(0)}
+            to{transform: translateX(650px)}
+}
+@keyframes spin{
+            from{transform: rotate(0deg)}
+            to{transform: rotate(360deg)}
+    
+}
+
+
+
+    
+
+.formTable{
+    
+    
+}
+
+/*CSS for nav bar in Team_Rules page*/
+.rulesNav{
+            display: flex;
+            justify-content: center;
+}
+
+.rulesNavChild{
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            padding:10px;
+            align-content: center;
+}
+
+
+/*footercss*/
+
+body{height: 100%;
+    min-height: 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+    
+
+
+.footerText{
+            font-size: 30px;
+}
+
+    
+.footerContent{
+            display: flex;
+            flex-direction: column-reverse;
+}
+
+.footerLinks{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+}
+
+footer{
+        left: 0;
+        right:0;
+        bottom: 0;
+        width: 100%;
+        height:100px;
+        background-color: rgb(3,57,73);
+        color:rgb(163,255,21) ;
+        text-align: center;
+        margin-top:15px;
+        border-radius: 20px;
+}
+    
